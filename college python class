@@ -1,0 +1,163 @@
+# n=int(input("enter the number: "))
+# for i in range(1,n+1):
+#     print("  "*(n-i),end="")
+#     for j in range(i,0,-1):
+#         print(j, end="")
+#     print("")
+
+#thisdict = {
+    #"brand": "ford",
+    #"model": "mustang",
+    #"year": 1964,
+    #"year":2020
+#}
+#print(thisdict)
+
+# list=[1,2,3,4,5,6]
+# li=[34,5,6,7,89,9]
+# print(list<li)
+
+
+# a1 = "the quick brown fox jumped over the lazy dog"
+# c=set()
+# for i in a1:
+#     if i in "aeiou" :
+#         b=c.add(i)
+# print(len(c))
+
+# a1 = "chain khuli ki main kuli"
+# v1=[]
+
+# for i in a1:
+#      if i in "aeiou":
+#         v1.append(i)
+
+# a2="aeiou"
+# v2=[]
+# for i in a2 :
+#     if i not in v1:
+#         v2.append(i)
+
+# print(v2)
+
+
+# str=")))((("
+# a=str.count("(")
+# b=str.count(")")
+# if a==b:
+#     print("y")
+# else:
+#     print("n")
+
+
+
+# L=[1,1,2,3,4,1]
+# sum=0
+# for i in L:
+#     if i==1 :
+#         sum+=1
+# print(sum)
+
+# L=(1,1,2,3,4,1)
+# sum=0
+# for i in L:
+#     if i==1 :
+#         sum+=1
+# print(sum)
+
+# n=int(input("enter the  number"))
+# if n%5==0 and n%7==0:
+#     print("fize buzze")
+# else:
+#     if n%5==0:
+#         print("fizze")
+#     elif n%7==0:
+#         print("buzze")
+#     else:
+#         print("wrong number ")
+
+# t=((1,2),(3,1),(5,4))
+# for i in t:
+#     for j in i:
+        
+
+# l=[1,2,2,3,4,4,5,6,6,7]
+# a=[]
+# for i in l:
+#     if i not in a :
+#         a.append(i)
+# print(a)
+
+# l = list(map(int, input("Enter scores : ").split(",")))
+# student_number = 0
+
+# for score in l:
+#     if score >= 10 and score <= 20:
+#         print(f"Student {student_number} score {score} and grade is A")
+#     elif score >= 21 and score <= 30:
+#         print(f"Student {student_number} score {score} and grade is B")
+#     elif score >= 31 and score <= 40:
+#         print(f"Student {student_number} score {score} and grade is C")
+#     elif score > 40:
+#         print(f"Student {student_number} score {score} and grade is D")
+#     student_number += 1
+
+# score = input("Enter the scores separated by commas: ").split(",")
+# scor = [int(x) for x in score]
+# best = max(scor)
+# grades = []
+
+# for s in scor:
+#     if s >= best - 10:
+#         grades.append("A")
+#     elif s >= best - 20:
+#         grades.append("B")
+#     elif s >= best - 30:
+#         grades.append("C")
+#     elif s >= best - 40:
+#         grades.append("D")
+#     else:
+#         grades.append("F")
+
+# for i in range(len(scor)):
+#     print(f"Score {scor[i]} gets grade {grades[i]}")
+
+
+
+# l = list(map(int,input("enter the element").split()))
+# b = 0
+# a = len(l) - 1
+# while b < a:
+#     l[b], l[a] = l[a], l[b]
+#     b += 1
+#     a -= 1
+# print(l)
+
+
+# l = list(map(int,input("enter the element").split()))
+# b = 0
+# a = len(l) - 1
+# while b < a:
+#     l[b], l[a] = l[a], l[b]
+#     b += 1
+#     a -= 1
+# print(l)
+
+# l = list(map(int,input("enter the element").split()))
+# for i in range(len(l)-1,-1,-1):
+#     print(l[i],end="")
+
+# l= list(map(int,input("enter the element").split()))
+# a=0
+# b=0
+# avg=sum(l)/len(l)
+# for i in l:
+#     if i>=avg:
+#         a+=1
+#     elif i < avg :
+#         b+=1
+# print(avg)
+# print(f"scores above or equal the avg are: {a}")
+# print(f"scores blowl the avg are: {b}")
+
+    
